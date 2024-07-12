@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources Page</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+  <link rel="stylesheet" href="resources.css">
+</head>
+<body>
+    <header>
+        <!--Mobile Header -->
+        <div class=".container mobile-header">
+          <!-- Logo-Left side -->
+  
+          <div class="logo">
+            <a href="#Home"
+              ><img
+                class="logo"
+                src="https://askbootstrap.com/preview/landeng/img/logo.svg"
+                alt=""
+            /></a>
+          </div>
+          <!-- humburger-right side -->
+          <div class="hamburger">
+            <i class="fa-solid fa-bars" data-visible="true"></i>
+            <i class="fa-solid fa-close" data-visible="false"></i>
+          </div>
+        </div>
+  
+        <!-- Desktop menue -->
+        <div class="container">
+          <nav class="desktop-menue">
+            <!-- Logo-Left side -->
+  
+            <div class="logo">
+              <a href="index.html"
+                ><img
+                  class="logo"
+                  src="https://askbootstrap.com/preview/landeng/img/logo.svg"
+                  alt=""
+              /></a>
+            </div>
+  
+            <!-- Menus link -->
+  
+            <ul class="menues-link">
+              <li><a href="#about"> About</a></li>
+              <li><a href="#product">Product</a></li>
+              <li><a href="pricing.html">Pricing </a></li>
+              <li><a href="#resources">Resources</a></li>
+              <li><a href="#customers">Customers</a></li>
+            </ul>
+            <!-- Menus link right-side -->
+  
+            <ul class="menues-link-butten">
+              <li><a href="#login">Login</a></li>
+              <li class="start">
+                <a href="#start-free-trail">Start free trail</a>
+              </li>
+            </ul>
+  
+          </nav>
+        </div>
+        <!-- Mobile menue -->
+        <nav class="mobile-menue" data-visible="false">
+  
+          <div class="navigation">
+            <!-- Menus link -->
+            <ul class="menues-link">
+              <li><a href="#about"> About</a></li>
+              <li><a href="#product">Product</a></li>
+              <li><a href="pricing.html">Pricing </a></li>
+              <li><a href="#resources">Resources</a></li>
+              <li><a href="#customers">Customers</a></li>
+              <li><a href="#login">Login</a></li>
+              <li class="start">
+                <a href="#start-free-trail">Start free trail</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    <section class="resource-hero">
+        <div class="container rec-con">
+            <h1>Resources to help you grow as <br>a creative enterpreneur.</h1>
+            <form>
+           <input type="text" id="search " name="search" placeholder="search..."/>
+           <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+
+        </div>
+    </section>
+    <script>
+    const hamburger = document.querySelector(".hamburger");
+    const mobileMenu = document.querySelector(".mobile-menue");
+    const icons = document.querySelectorAll(".hamburger i");
+
+    hamburger.addEventListener("click", function () {
+      const isVisible = mobileMenu.getAttribute("data-visible") === "true";
+      mobileMenu.setAttribute("data-visible", !isVisible);
+      icons[0].setAttribute("data-visible", !isVisible);
+      icons[1].setAttribute("data-visible", isVisible);
+    });
+  </script>
+</body>
+</html>
