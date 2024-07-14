@@ -331,7 +331,7 @@ border-radius: 22.5rem;
 .analytics .analytics-content h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-weight: 600;
   /* text-align: justify ; */
   line-height: 1.2; 
 }
@@ -411,6 +411,9 @@ border-radius: 22.5rem;
     color: #f7afc0;
     border-radius: 22.5rem;
 }
+
+
+
 .Offers .all-offers {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -475,10 +478,10 @@ border-radius: 22.5rem;
  margin: 2rem 1rem; 
 }
 
-.collaboration.collaboration-content h1 {
+.collaboration .collaboration-content h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-weight: 600;
   /* text-align: justify ; */
   line-height: 1.2; 
 }
@@ -629,7 +632,7 @@ footer .concludes .operations ul li a:hover {
     /* background-color: #fff; */
   }
 
-  i{
+   .hamburger i {
     background-color: #2761ec;
     padding: 5px 10px ;
     border-radius: 5px;
