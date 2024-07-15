@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <header>
+        <div class="header-section">
+            <!--Mobile Header -->
+        <div class=".container mobile-header">
+          <!-- Logo-Left side -->
+  
+          <div class="logo">
+            <a href="#Home" ><img class="logo" src="https://askbootstrap.com/preview/landeng/img/logo.svg" alt=""></a>
+          </div>
+          <!-- humburger-right side -->
+          <div class="hamburger">
+            
+            <i class="fa-solid fa-bars" data-visible="true"></i>
+            <i class="fa-solid fa-close" data-visible="false"></i>
+            
+          </div>
+        </div>
+  
+        <!-- Desktop menue -->
+        <!-- <div class="container"> -->
+          <nav class="desktop-menue">
+            <!-- Logo-Left side -->
+  
+            <div class="logo">
+              <a href="#Home"
+                ><img
+                  class="logo"
+                  src="https://askbootstrap.com/preview/landeng/img/logo.svg"
+                  alt=""
+              /></a>
+            </div>
+  
+            <!-- Menus link -->
+  
+            <ul class="menues-link">
+              <li><a href="#about"> About</a></li>
+              <li><a href="#product">Product</a></li>
+              <li><a href="pricing.html">Pricing </a></li>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="#customers">Customers</a></li>
+            </ul>
+            <!-- Menus link right-side -->
+  
+            <ul class="menues-link-butten">
+              <li><a href="Login.html">Login</a></li>
+              <li class="start">
+                <a href="start.html">Start free trail</a>
+              </li>
+            </ul>
+  
+          </nav>
+        <!-- </div> -->
+        <!-- Mobile menue -->
+        <nav class="mobile-menue" data-visible="false">
+  
+          <div class="navigation">
+            <!-- Menus link -->
+            <ul class="menues-link">
+              <li><a href="#about"> About</a></li>
+              <li><a href="#product">Product</a></li>
+              <li><a href="#pricing">Pricing </a></li>
+              <li><a href="#resources">Resources</a></li>
+              <li><a href="#customers">Customers</a></li>
+              <li><a href="#login">Login</a></li>
+              <li class="start">
+                <a href="#start-free-trail">Start free trail</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+  
+      
+        </div> 
+      </header>
+  
+      <script>
+        const hamburger = document.querySelector(".hamburger");
+        const mobileMenu = document.querySelector(".mobile-menue");
+        const icons = document.querySelectorAll(".hamburger i");
+  
+        hamburger.addEventListener("click", function () {
+          const isVisible = mobileMenu.getAttribute("data-visible") === "true";
+          mobileMenu.setAttribute("data-visible", !isVisible);
+          icons[0].setAttribute("data-visible", !isVisible);
+          icons[1].setAttribute("data-visible", isVisible);
+        });
+      </script>
+
+    <section class="container about-main">
+        <h1>Good business should know every step of growth.</h1>
+        <div class="content-topic"> <hr> <p> About Us</p> </div>
+        <p>
+            Lorem ipsum is the most popular form of dummy content or placeholder text. It is a pseudo-Latin word originated from Cicero's De Finibus Bonorum et Malorum. There is no actual meaning of any Lorem Ipsum sentences even in Latin or any other language. Then...
+        </p>
+        <p>
+            Designers & webmasters use it to visualize existence of text form of content on websites, wireframes or posters. In most of the cases, the person who writes the content and design the page are two different people. Designers prefer to just put dummy content before the final version is ready to make sure you have the right font size, color, line height, font-family, etc.
+        </p>
+        <p>
+            While building out a new website you may have literally no idea of where to start from. Platforms like WordPress also use dummy content to provide better user experience before you even make your first edit on the site. It makes it easier for you to decide which part would have the content and not. Lorem ipsum is indistinguishable from web designing as long as the designer is interested in finishing off the project faster.
+        </p>
+
+
+    </section>
+
+    <section class="container  our-brands">
+        <h2>A few of the <br>
+            amazing who trust Landeng</h2>
+        <div class="first-class">
+            <div class="brands">
+                <i class="fa-brands fa-fedex"></i>
+            </div>
+            <div class="brands">
+                <i class="fa-brands fa-cpanel"></i>
+            </div>
+            <div class="brands">
+                <i class="fa-brands fa-google-plus-g"></i>
+            </div>
+            <div class="brands">
+                <i class="fa-brands fa-centos"></i>
+            </div>
+          
+        </div>
+        <div class="first-class">
+            <div class="brands">
+                <i class="fa-brands fa-amazon-pay"></i>
+            </div>
+            <div class="brands">
+                <i class="fa-brands fa-audible"></i>
+            </div>
+            <div class="brands">
+                <i class="fa-brands fa-behance"></i>
+            </div>
+            <div class="brands">
+                <i class="fa-solid fa-hashtag"></i>
+            </div>
+          
+        </div>
+    
+    </section>
+    
+</body>
+</html>
