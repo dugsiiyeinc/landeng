@@ -188,6 +188,286 @@
     gap: 1rem;
     margin: 1rem 0;
   }
+
+  .users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    margin-top: 5rem;
+    max-width: 60%;
+    border-bottom: solid 1px rgb(227, 233, 237);
+    margin-bottom: 2rem;
+    padding-bottom:5rem ;
+
+  }
+  
+  .users .number-users {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  
+  }
+
+
+  .users  .number-users  .user-content h3{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+    color:  rgb(52, 58, 64);
+
+  }
+  .users  .number-users  .user-content p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color:   rgb(108, 117, 125);
+
+  }
+  .users  .number-users .user-icon i {
+    font-size: 23px;
+    background-color: rgb(39 97 236 / 8%);
+    padding: 10px 11px;
+    color: #2761ec;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22.5rem;
+  }
+  .users  .number-users .user-icon2 i {
+    font-size: 23px;
+    background-color: rgb(247 206 228 / 27%);
+    padding: 10px 11px;
+    color: #f7afc0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22.5rem;
+   
+  }
+
+  .diractor-section .diractors-topic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 3rem 0;
+
+  }
+  .diractor-section .diractors-topic h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color:  rgb(33, 37, 41);
+    line-height: 2.5rem;
+
+  }
+  .diractor-section .diractors-topic {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color:  rgb(108, 122, 135);
+    line-height: 1.5rem;
+
+  }
+
+  .diractor-section  .directors {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+
+   
+   
+  }
+  .diractor-section .directors .Co-founders {
+    border: solid 1px rgb(212, 206, 206);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    border-radius: 1rem;
+  }
+  .diractor-section .directors  .Co-founders img{ 
+    border-radius: 22.5rem;
+
+  }
+
+  .diractor-section .directors  .Co-founders h5{
+    font-size: 1rem;
+    font-weight: 700;
+    color:  rgb(52, 58, 64);
+    line-height: 1.5rem;
+    
+
+  }
+
+  .diractor-section .directors  .Co-founders p{
+    font-size: 0.6875rem;
+    font-weight: 400;
+    color:  #6c7a87;
+    line-height: 1rem;
+    
+
+  }
+
+  .diractor-section .directors  .social-icons{
+    display: flex;
+    gap: 0.5rem;
+  }
+  .diractor-section .directors  .social-icons .icon1{
+    font-size: 1.6875rem;
+    font-weight: 400;
+    color: #31a9f3;
+    line-height: 1rem;
+    
+
+  }
+  .diractor-section .directors  .social-icons .icon2{
+    font-size: 1.6875rem;
+    font-weight: 400;
+    color: #2761ec;
+    line-height: 1rem;
+    
+
+  }
+  .diractor-section .directors  .social-icons .icon3{
+    font-size: 1.6875rem;
+    font-weight: 400;
+    color: #097CB7;
+    line-height: 1rem;
+    
+
+  }
+
+  .contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    margin-bottom: 0.5rem;
+    margin-top: 5rem;
+  }
+
+ .contact-us h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color:  #212529;
+    line-height: 3rem;
+    text-align: center;
+    
+
+  }
+ .contact-us p{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color:  rgb(108, 122, 135);
+    line-height: 1rem;
+    
+
+  }
+
+  .contact-us button{
+    color: #fff;
+    background-color: #2761ec;
+    border: none;
+    border-radius: 0.5rem;
+    padding: .85rem 1.8rem;
+    font-size: 1rem;
+    text-align: center;
+
+}
+  
+
+footer{
+  background-color: #f8f9fa;
+  padding: 2rem  0;
+}
+
+footer .concludes {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  align-items: center;
+ 
+}
+
+footer .concludes .social-media {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  
+}
+footer .concludes .social-icons {
+ margin: 1.5rem;
+ font-size: 1.5rem;
+ color: #2761ec;
+  
+  
+}
+
+footer .concludes .operations {
+  width: 70%;
+  display: flex;
+  gap: 7rem;
+}
+
+
+footer .concludes .operations .operation-part-one {
+
+  display: flex;
+  gap: 7rem;
+}
+
+footer .concludes .operations  p {
+ font-size: 0.875rem;
+ font-weight: 700;
+ line-height: 1.3125rem;
+ color:  rgb(108, 122, 135);
+ margin-bottom: 1.3rem;
+}
+footer .concludes .operations ul li {
+  list-style: none;
+  padding: 0.5rem 0;
+}
+footer .concludes .operations ul li a {
+ text-decoration: none;
+ color: #000;
+ font-size: 0.875rem;
+ font-weight: 500;
+ line-height: 1.3125rem;
+}
+footer .concludes .operations ul li a:hover {
+  color: #2761ec;
+ 
+}
+
+.copy-right{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+ .copy-right  p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.3125rem;
+  color:  rgb(108, 122, 135);
+ 
+ }
+ .copy-right  p span {
+  color: #0056b3;
+  font-weight: 700;
+ }
   @media (max-width: 768px) {
     .desktop-menue {
       display: none;
@@ -307,4 +587,37 @@
         font-size: 2rem;
       
       }
+
+      .users {
+        flex-direction: column;
+        gap: 1rem;
+    
+      }
+
+      .diractor-section  .directors {
+      flex-direction: column;
+      margin: 1rem;
+    
+       
+       
+      }
+
+      .contact-us{
+        padding: 1rem ;
+        align-items: center;
+        margin-top: 2rem;
+      }
+
+        
+footer {
+  display: none;
+   
+  }
+    
+
+  
+  .copy-right{
+    flex-direction: column;
+    align-items: center;
+  }
 }
