@@ -86,6 +86,20 @@
     </div> 
   </header>
 
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const mobileMenu = document.querySelector(".mobile-menue");
+    const icons = document.querySelectorAll(".hamburger i");
+
+    hamburger.addEventListener("click", function () {
+      const isVisible = mobileMenu.getAttribute("data-visible") === "true";
+      mobileMenu.setAttribute("data-visible", !isVisible);
+      icons[0].setAttribute("data-visible", !isVisible);
+      icons[1].setAttribute("data-visible", isVisible);
+    });
+  </script>
+
+
     <section class="resource-hero">
         <div class="container rec-con">
 

@@ -82,6 +82,19 @@
       
         </div> 
       </header>
+
+      <script>
+        const hamburger = document.querySelector(".hamburger");
+        const mobileMenu = document.querySelector(".mobile-menue");
+        const icons = document.querySelectorAll(".hamburger i");
+  
+        hamburger.addEventListener("click", function () {
+          const isVisible = mobileMenu.getAttribute("data-visible") === "true";
+          mobileMenu.setAttribute("data-visible", !isVisible);
+          icons[0].setAttribute("data-visible", !isVisible);
+          icons[1].setAttribute("data-visible", isVisible);
+        });
+      </script>
       <section class="customer-hero">
         <h2 class="title">Hear what 95,000 brands and <br />businesses ♥️ about using  <br /> Landeng
         </h2>

@@ -704,34 +704,18 @@ footer{
         width: fit-content;
         margin: 5px 0;
     }
-    footer .concludes {
-        flex-direction: column;
-        /* align-items: center; */
-         
-        }
-          
-        footer .concludes .social-media {
-        width: 100%;
-        margin-left: 3rem;
-        
-         
-        }
-        footer .concludes .operations {
-          flex-direction: column;
-          gap: 3rem;
-          width: 100%;
-         
-        }
-        
-        footer .concludes .operations .operation-part-one {
-          gap: 4rem;
-          margin-left: 2rem;
-        }
-        
-        .copy-right{
-          flex-direction: column;
-          align-items: center;
-        }
+           
+footer {
+  display: none;
+   
+  }
+    
+
+  
+  .copy-right{
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
     
