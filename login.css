@@ -5,9 +5,9 @@
 }
 
 body{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     font-family: circularstd, sans-serif;
-    background-image: url("background-image.png" );
+    background-image: url("bac-img.png" );
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
