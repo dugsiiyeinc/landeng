@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -110,7 +111,7 @@ header {
     
   }
   .container h1{
-    font-size: 4rem;
+    font-size: 3.6875rem;
     font-weight: 700;
     line-height:5.625rem;
     color: #0b2238;
@@ -192,7 +193,7 @@ header {
   border-radius: 10px;
   padding: 2rem 1rem;
   height: 70vh;
-  width: 450px;
+  width: 400px;
  
 }
 
@@ -278,7 +279,7 @@ header {
 }
 
 .essentials h3 {
-  color: #58a2e7;
+  color: #6ab4f8;
 }
 
 .Premium h3 {
@@ -309,13 +310,11 @@ header {
   }
   
   
-  .sec-plan .container .header p {
+  .header p {
     display: flex;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #666;
-    font-family: circular std book;
-    margin-top: 0.75rem;
   }
   .header p::before {
     content: "";
@@ -325,38 +324,33 @@ header {
   }
   
   .header h1 {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     display: flex;
     font-size: 2.75rem;
     font-weight: 500;
     line-height: 3.375rem;
     color: #333;
     align-items: flex-start;
-    font-family: circular std book;;
   }
-  .sec-plan{
-    margin-top: 10rem;
-  }
+  
   .plans {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2.5rem;
-    margin: 1.5rem;
+    gap: 2rem;
+    margin: 1rem;
   }
   
   .plan h2 {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
     color: #333;
-    font-family: circular std book;;
   }
   .basic h2{
     border-bottom: 1px solid #f7afc0;;
     padding-bottom: 0.5rem;
     font-size: 1.875rem;
     font-weight: 400;
-    line-height: 2rem;
-    margin-bottom: 1.5rem;
+    line-height: 2.25;
   
   }
   .Essential h2{
@@ -364,16 +358,14 @@ header {
     padding-bottom: 0.5rem;
     font-size: 1.875rem;
     font-weight: 400;
-    line-height: 1.5rem;
-    margin-bottom: 1.5rem;
+    line-height: 2.25;
   
   }
   .plan p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 400;
     color: #666;
     line-height: 1.4rem;
-    font-family: circular std book;;
   }
   
   .premium h2 {
@@ -382,7 +374,6 @@ header {
     font-size: 1.875rem;
     font-weight: 400;
     line-height: 2.25;
-    margin-bottom: 1.5rem;
   }
   .get-start{
     width: 100%;
@@ -391,7 +382,7 @@ header {
     border-top-left-radius: 2.25rem;
     color: black;
     padding: 2rem;
-    margin-top: 3.5rem;
+    /* margin: 2rem auto; */
     margin-bottom: 0.5rem;
   }
   .get-start .container p{
