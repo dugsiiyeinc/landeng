@@ -647,6 +647,7 @@ footer .concludes .operations ul li a:hover {
     flex-direction: column;
     /* background-color: #fff; */
     transform: translateY(-100%);
+    /* transform: translateY(0%); */
     transition: transform 350ms ease-in-out;
     position: absolute;
     top: 70px;
@@ -655,13 +656,15 @@ footer .concludes .operations ul li a:hover {
     background-color: #fff;
   }
 
+ 
+
   .mobile-menue[data-visible="true"] {
     transform: translateY(0%);
   }
   .mobile-menue[data-visible="false"] {
     transform: translateY(0%);
     display: flex;
-  }
+  } 
 
   .hamburger i[data-visible="false"] {
     display: none;
