@@ -97,6 +97,107 @@ header {
 .mobile-menue {
   display: none;
 }
+
+   
+  
+  
+  img{
+    width: 100%;
+  }
+  .container {
+    width: max(90%, 1120px);
+    margin-inline: auto;
+  }
+
+  header {
+    padding: 1.6875rem 0;
+    
+    
+  }
+  
+  .desktop-menue {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #fff;
+   padding: 1rem 5rem;
+    top: 0;
+    width: 100%;
+    /* background-color: #f1afb0; */
+  
+   
+  }
+  
+  .logo {
+    height: 2.375rem;
+  }
+  
+  .desktop-menue .menues-link {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+  
+  .desktop-menue .menues-link a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.875rem;
+    line-height: 21px;
+    font-weight: 400;
+  }
+  
+  .desktop-menue .menues-link a:hover {
+    background-color: #2761ec;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .desktop-menue .menues-link-butten {
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .desktop-menue .menues-link-butten a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.875rem;
+    line-height: 21px;
+    font-weight: 400;
+  }
+  
+  .desktop-menue .menues-link-butten a:hover {
+    background-color: #2761ec;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .desktop-menue .menues-link-butten .start {
+    background-color: #2761ec;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  
+  .desktop-menue .menues-link-butten .start a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 21px;
+    font-weight: 400;
+  }
+  
+  .mobile-header {
+    display: none;
+  }
+  
+  .mobile-menue {
+    display: none;
+  }
+
   .resource-hero{
     height: 80vh;
     display: flex;
@@ -412,20 +513,30 @@ header {
       color: #0056b3;
       font-weight: 700;
      }
-  @media(max-width:768px){
-    .desktop-menue {
+     @media (max-width: 768px) {
+      .desktop-menue {
         display: none;
       }
+    
+    
       .mobile-header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 10px;
-        position: sticky;
-        top: 0;
+        padding: 20px 10px;
+        position: fixed;
+        top:0 ;
+        width: 100%;
         z-index: 10;
     
-        background-color: #fff;
+        /* background-color: #fff; */
+      }
+    
+       .hamburger i {
+        background-color: #2761ec;
+        padding: 5px 10px ;
+        border-radius: 5px;
+        color: white;
       }
     
       .hamburger {
@@ -436,11 +547,11 @@ header {
       .mobile-menue {
         /* display: flex; */
         flex-direction: column;
-        background-color: #fff;
+        /* background-color: #fff; */
         transform: translateY(-100%);
-        transition: transform 0.3s ease-in-out;
+        transition: transform 350ms ease-in-out;
         position: absolute;
-        top: 0;
+        top: 70px;
         width: 100%;
         z-index: 5;
       }
@@ -464,14 +575,27 @@ header {
       .navigation .menues-link {
         display: flex;
         flex-direction: column;
-        gap: 5px;
+        gap: 15px;
         text-align: center;
         margin-top: 1rem;
       }
     
-      .navigation .menues-link li {
-        border-bottom: 1px solid gray;
+      .navigation .menues-link li  a{
+       text-decoration: none;
         color: black;
+      }
+    
+      .navigation .menues-link  .start{
+        background-color: #2761ec;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin: 0 20px;
+        list-style: none;
+    
+      }
+    
+      .navigation .menues-link  .start a {
+        color: white;
       }
       .resource-hero .rec-con h1 {
         font-size: 2.5rem;
@@ -542,37 +666,16 @@ header {
       display: flex;
       justify-content: start;
       margin-left: 5rem;
-      
-     
    }
-   footer .concludes {
+         
+footer {
+  display: none;
+   
+  }
+  .copy-right{
     flex-direction: column;
-    /* align-items: center; */
-     
-    }
-      
-    footer .concludes .social-media {
-    width: 100%;
-    margin-left: 3rem;
-    
-     
-    }
-    footer .concludes .operations {
-      flex-direction: column;
-      gap: 3rem;
-      width: 100%;
-     
-    }
-    
-    footer .concludes .operations .operation-part-one {
-      gap: 4rem;
-      margin-left: 2rem;
-    }
-    
-    .copy-right{
-      flex-direction: column;
-      align-items: center;
-    }
+    align-items: center;
+  }
   
   
 
