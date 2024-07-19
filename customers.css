@@ -616,6 +616,7 @@ footer{
       top: 70px;
       width: 100%;
       z-index: 5;
+      background-color: #fff;
     }
   
     .mobile-menue[data-visible="true"] {
@@ -637,9 +638,10 @@ footer{
     .navigation .menues-link {
       display: flex;
       flex-direction: column;
-      gap: 15px;
+      gap: 25px;
       text-align: center;
       margin-top: 1rem;
+      padding-bottom: 1rem;
     }
   
     .navigation .menues-link li  a{
