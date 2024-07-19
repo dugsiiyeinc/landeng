@@ -8,36 +8,34 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
-    <link rel="stylesheet" href="pricing.css" />
+    <link rel="stylesheet" href="pricing.css"/>
   </head>
   <body>
     <header>
-      <!--Mobile Header -->
+      <div class="header-section">
+          <!--Mobile Header -->
       <div class=".container mobile-header">
         <!-- Logo-Left side -->
 
         <div class="logo">
-          <a href="#Home"
-            ><img
-              class="logo"
-              src="https://askbootstrap.com/preview/landeng/img/logo.svg"
-              alt=""
-          /></a>
+          <a href="#Home" ><img class="logo" src="https://askbootstrap.com/preview/landeng/img/logo.svg" alt=""></a>
         </div>
         <!-- humburger-right side -->
         <div class="hamburger">
+          
           <i class="fa-solid fa-bars" data-visible="true"></i>
           <i class="fa-solid fa-close" data-visible="false"></i>
+          
         </div>
       </div>
 
       <!-- Desktop menue -->
-      <div class="container">
+      <!-- <div class="container"> -->
         <nav class="desktop-menue">
           <!-- Logo-Left side -->
 
           <div class="logo">
-            <a href="index.html"
+            <a href="#Home"
               ><img
                 class="logo"
                 src="https://askbootstrap.com/preview/landeng/img/logo.svg"
@@ -50,21 +48,21 @@
           <ul class="menues-link">
             <li><a href="#about"> About</a></li>
             <li><a href="#product">Product</a></li>
-            <li><a href="#pricing.html">Pricing </a></li>
-            <li><a href="#resources">Resources</a></li>
+            <li><a href="pricing.html">Pricing </a></li>
+            <li><a href="resources.html">Resources</a></li>
             <li><a href="#customers">Customers</a></li>
           </ul>
           <!-- Menus link right-side -->
 
           <ul class="menues-link-butten">
-            <li><a href="#login">Login</a></li>
+            <li><a href="Login.html">Login</a></li>
             <li class="start">
-              <a href="#start-free-trail">Start free trail</a>
+              <a href="start.html">Start free trail</a>
             </li>
           </ul>
 
         </nav>
-      </div>
+      <!-- </div> -->
       <!-- Mobile menue -->
       <nav class="mobile-menue" data-visible="false">
 
@@ -83,6 +81,9 @@
           </ul>
         </div>
       </nav>
+
+    
+      </div> 
     </header>
     <section class="pricing-hero">
       <div class="container">
@@ -141,9 +142,6 @@
         </div>
     </div>
 
-    
-
-      
      
     </section>
     <section class="sec-plan">

@@ -11,84 +11,83 @@
   <link rel="stylesheet" href="resources.css">
 </head>
 <body>
-    <header>
+  <header>
+    <div class="header-section">
         <!--Mobile Header -->
-        <div class=".container mobile-header">
-          <!-- Logo-Left side -->
-  
-          <div class="logo">
-            <a href="#Home"
-              ><img
-                class="logo"
-                src="https://askbootstrap.com/preview/landeng/img/logo.svg"
-                alt=""
-            /></a>
-          </div>
-          <!-- humburger-right side -->
-          <div class="hamburger">
-            <i class="fa-solid fa-bars" data-visible="true"></i>
-            <i class="fa-solid fa-close" data-visible="false"></i>
-          </div>
+    <div class=".container mobile-header">
+      <!-- Logo-Left side -->
+
+      <div class="logo">
+        <a href="#Home" ><img class="logo" src="https://askbootstrap.com/preview/landeng/img/logo.svg" alt=""></a>
+      </div>
+      <!-- humburger-right side -->
+      <div class="hamburger">
+        
+        <i class="fa-solid fa-bars" data-visible="true"></i>
+        <i class="fa-solid fa-close" data-visible="false"></i>
+        
+      </div>
+    </div>
+
+    <!-- Desktop menue -->
+    <!-- <div class="container"> -->
+      <nav class="desktop-menue">
+        <!-- Logo-Left side -->
+
+        <div class="logo">
+          <a href="#Home"
+            ><img
+              class="logo"
+              src="https://askbootstrap.com/preview/landeng/img/logo.svg"
+              alt=""
+          /></a>
         </div>
+
+        <!-- Menus link -->
+
+        <ul class="menues-link">
+          <li><a href="#about"> About</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="pricing.html">Pricing </a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="#customers">Customers</a></li>
+        </ul>
+        <!-- Menus link right-side -->
+
+        <ul class="menues-link-butten">
+          <li><a href="Login.html">Login</a></li>
+          <li class="start">
+            <a href="start.html">Start free trail</a>
+          </li>
+        </ul>
+
+      </nav>
+    <!-- </div> -->
+    <!-- Mobile menue -->
+    <nav class="mobile-menue" data-visible="false">
+
+      <div class="navigation">
+        <!-- Menus link -->
+        <ul class="menues-link">
+          <li><a href="#about"> About</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#pricing">Pricing </a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#customers">Customers</a></li>
+          <li><a href="#login">Login</a></li>
+          <li class="start">
+            <a href="#start-free-trail">Start free trail</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
   
-        <!-- Desktop menue -->
-        <div class="container">
-          <nav class="desktop-menue">
-            <!-- Logo-Left side -->
-  
-            <div class="logo">
-              <a href="index.html"
-                ><img
-                  class="logo"
-                  src="https://askbootstrap.com/preview/landeng/img/logo.svg"
-                  alt=""
-              /></a>
-            </div>
-  
-            <!-- Menus link -->
-  
-            <ul class="menues-link">
-              <li><a href="#about"> About</a></li>
-              <li><a href="#product">Product</a></li>
-              <li><a href="pricing.html">Pricing </a></li>
-              <li><a href="#resources">Resources</a></li>
-              <li><a href="#customers">Customers</a></li>
-            </ul>
-            <!-- Menus link right-side -->
-  
-            <ul class="menues-link-butten">
-              <li><a href="#login">Login</a></li>
-              <li class="start">
-                <a href="#start-free-trail">Start free trail</a>
-              </li>
-            </ul>
-  
-          </nav>
-        </div>
-        <!-- Mobile menue -->
-        <nav class="mobile-menue" data-visible="false">
-  
-          <div class="navigation">
-            <!-- Menus link -->
-            <ul class="menues-link">
-              <li><a href="#about"> About</a></li>
-              <li><a href="#product">Product</a></li>
-              <li><a href="pricing.html">Pricing </a></li>
-              <li><a href="#resources">Resources</a></li>
-              <li><a href="#customers">Customers</a></li>
-              <li><a href="#login">Login</a></li>
-              <li class="start">
-                <a href="#start-free-trail">Start free trail</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
+    </div> 
+  </header>
     <section class="resource-hero">
         <div class="container rec-con">
-
             <h1>Resources to help you grow as <br>a creative enterpreneur.</h1>
-
             <div class="search-box">
               <i class="fas fa-search"></i>
               <input type="text" placeholder="Search...">
@@ -96,38 +95,34 @@
 
         </div>
         </section>
-    </section class="our-resource">
-       <div class="container">
-           <div class="resources">
-            <div class="resource">
-              <div class="title-resourse">
-                <i class="fa-solid fa-newspaper"></i>
-                <h5>Articles</h5>
-                </div>
-                <p>Our best tip for launching and growing your creative business online.</p>
-                <span>Learn More ></span>
-             
-            </div>
-            <div class="resource">
-              <div class="title-resourse">
-                <i class="fa-solid fa-circle-info"></i>
-                <h5>Guidlines</h5>
-                </div>
-                <p>Everything you need to know to create your online course or membership..</p>
-                <span>Learn More ></span>
-             
-            </div>
-            <div class="resource">
-              <div class="title-resourse">
-                <i class="fa-solid fa-chart-simple"></i>
-                <h5>Tools</h5>
-                </div>
-                <p>Take the hassle out of creating & setting with our free content generators.</p>
-                <span>Learn More ></span>
-            </div>
-           </div>
-       </div>
-     </section>
+        <section class="content-section">
+          <div class="container">
+              <div class="content-box">
+                  <div class="icon-heading">
+                      <i class="fas fa-newspaper"></i>
+                      <h3>Articles</h3>
+                  </div>
+                  <p>Our best tip for launching and growing your<br> creative business online.</p>
+                  <a href="#">Learn More ></a>
+              </div>
+              <div class="content-box">
+                  <div class="icon-heading">
+                    <i class="fa-solid fa-circle-info"></i>
+                      <h3>Guides</h3>
+                  </div>
+                  <p>Everything you need to know to create your online course or <br>membership.</p>
+                  <a href="#">Learn More ></a>
+              </div>
+              <div class="content-box">
+                  <div class="icon-heading">
+                    <i class="fa-sharp fa-solid fa-chart-simple"></i>
+                      <h3>Tools</h3>
+                  </div>
+                  <p>Take the hassle out of creating & setting with<br> our free content generators.</p>
+                  <a href="#">Learn More ></a>
+              </div>
+          </div>
+      </section>
 
      <section class="popular-articles">
          <div class="container">
@@ -138,7 +133,7 @@
                 <img src="https://plus.unsplash.com/premium_photo-1681147548070-e57a020d01a3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image-1">
               </div>
               <div class="post-article">
-                <h5>Take the hassle out of creating & setting with our free content generators.</h5>
+                <h4>Take the hassle out of creating & setting with our free content generators.</h4>
                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                 <span>24 May 2020 - Enterpenuership</span>
               </div>
@@ -148,7 +143,7 @@
                 <img src="https://images.unsplash.com/photo-1558174685-430919a96c8d?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image-2">
               </div>
               <div class="post-article">
-                <h5>Take the hassle out of creating & setting with our free content generators.</h5>
+                <h4>Take the hassle out of creating & setting with our free content generators.</h4>
                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                 <span>24 May 2020 - Enterpenuership</span>
               </div>
@@ -158,7 +153,7 @@
                 <img src="https://images.unsplash.com/photo-1417733403748-83bbc7c05140?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image-3">
               </div>
               <div class="post-article">
-                <h5>Take the hassle out of creating & setting with our free content generators.</h5>
+                <h4>Take the hassle out of creating & setting with our free content generators.</h4>
                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                 <span>24 May 2020 - Enterpenuership</span>
               </div>
@@ -168,7 +163,7 @@
                 <img src="https://plus.unsplash.com/premium_photo-1682098211431-6fbbaac9be2c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image-4">
               </div>
               <div class="post-article">
-                <h5>Take the hassle out of creating & setting with our free content generators.</h5>
+                <h4>Take the hassle out of creating & setting with our free content generators.</h4>
                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                 <span>24 May 2020 - Enterpenuership</span>
               </div>
