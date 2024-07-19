@@ -1,13 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: circularstd, sans-serif;
+}
+
+.container {
+  max-width:max(80%, 1120px);
+  margin-inline: auto;
+}
+
+header {
+  padding: 1.6875rem 0;
+}
+
+.desktop-menue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: #fff;
+ padding: 1rem 5rem;
+  top: 0;
+  width: 100%;
+ 
+}
+
+.logo {
+  height: 2.375rem;
+}
+
+.desktop-menue .menues-link {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.desktop-menue .menues-link a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.875rem;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.desktop-menue .menues-link a:hover {
+  background-color: #2761ec;
+  padding: 10px 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.desktop-menue .menues-link-butten {
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+  align-items: center;
+}
+
+.desktop-menue .menues-link-butten a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.875rem;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.desktop-menue .menues-link-butten a:hover {
+  background-color: #2761ec;
+  padding: 10px 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.desktop-menue .menues-link-butten .start {
+  background-color: #2761ec;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.desktop-menue .menues-link-butten .start a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.875rem;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.mobile-header {
+  display: none;
+}
+
+.mobile-menue {
+  display: none;
+}
+
+   
   
-  body {
-    font-family: "Poppins", sans-serif;
-  }
+  
   img{
     width: 100%;
   }
@@ -19,8 +112,7 @@
   header {
     padding: 1.6875rem 0;
     
-    /* background-image: url("https://askbootstrap.com/preview/landeng/img/slider1.jpg") ; */
-    /* height: 150vh; */
+    
   }
   
   .desktop-menue {
@@ -105,6 +197,7 @@
   .mobile-menue {
     display: none;
   }
+
   .resource-hero{
     height: 80vh;
     display: flex;
@@ -113,9 +206,6 @@
 
      
   }
-  
-
-
     .resource-hero .rec-con h1{
     font-size: 3.65rem;
     font-weight: 700;
@@ -159,89 +249,110 @@
   .search-box input::placeholder {
       color: #a0aec0;
   }
-    .our-resource{
-      margin-top: 0.5rem;
-    }
-    .resources{
-      display: grid;
-      grid-template-columns: repeat(3,1fr);
-    }
-     .resource{
-      width: 20rem;
-      height: 12rem;
-      padding: 1rem;
-      border:  2px solid hsla(0, 3%, 71%, 0.815);
-      margin: 1rem;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-       border-radius: 8px;
-       margin-bottom: 1rem;
-     }
-     .resource .title-resourse{
-      display: flex;
-      gap: 0.5rem;
-      align-items: center;
-     }
-     .resource .title-resourse h5{
-      font-size: 1.25rem;
-      line-height: 1.625rem;
-      font-weight: 500;
-      color: #212529;
-     }
-     .resource  p{
-      font-size: 1rem;
-      line-height: 1.3125rem;
-      font-weight: 400;
-       margin-top: 0.7rem;
-       color: #6c7a87;
-     }
-     .resource span{
-       color: #2761ec;
-       font-size: 1rem;
-      line-height: 1.3125rem;
-      font-weight: 400;
-       margin-top: 2rem;
-      
-     }
+.content-section {
+  padding: 40px;
+}
+
+.content-section .container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1.5rem;
+}
+
+.content-box {
+  background: #fff;
+  height: 12rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+
+ 
+}
+
+.icon-heading {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.icon-heading i {
+  font-size: 2rem;
+  color: #333;
+  margin-right: 10px;
+}
+
+.icon-heading h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height:1.5rem;
+  color: #0b2238;
+  font-family: circular std book;
+  margin: 0;
+}
+
+.content-box p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #666;
+  line-height: 1.3125rem;
+  font-family:circular std book;;
+}
+
+.content-box a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content-box a:hover {
+  text-decoration: underline;
+}
      .popular-articles{
       margin-top: 2.5rem;
+      margin-left: 5rem;
 
      }
 
      .popular-articles .container h2{
-     text-align: center;
+       text-align: center;
        font-size: 2.5rem;
        font-weight:500;
        color: #212529;
        line-height: 3rem;
+       font-family:circular std book;
+      
      }
      .articles{
       display: grid;
       grid-template-columns: repeat(2,1fr);
+      margin-top: 2rem;
      }
      .article {
       display: flex;
       gap: 1rem;
-      padding: 2rem 1rem;
+      padding: 2rem;
+      /* padding: 8vh; */
       border:  2px solid #d3d0d0d0;
       margin: 1rem; 
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
        border-radius: 8px;
-       width: 32rem;
-      height: rem;
+       /* height: 16vh; */
+      
      }
      .article img{
       width: 3.8300625rem;
       height: 3.8300625rem;
       border-radius: 8px;
      }
-    .post-article .article h5{
+    .post-article .article h4{
       line-height: 1.5625rem;
-      font-size: 1rem;
+      font-size: 1.5rem;
       color: #212529;
       font-weight: 700;
      }
      .article .post-article  p{
-      font-size: 0.875rem;
+      font-size: 0.957rem;
       font-weight: 400;
       line-height: 1.3125rem;
        color: #6c7a87;
@@ -498,13 +609,28 @@
       text-align: center;
   } 
     
-    .resources {
-      grid-template-columns: 1fr;
-  }
-    .resource{
-      margin-left: 1.5rem;
-      
-    }
+  .icon-heading {
+    flex-direction: column;
+}
+.content-section .container{
+  grid-template-columns: 1fr;
+}
+.icon-heading i {
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+.content-box {
+    padding: 15px;
+}
+
+.content-box p {
+    font-size: 0.9rem;
+}
+
+.content-box h3 {
+    font-size: 1.25rem;
+}
     .popular-articles .container h2{
         font-size: 1.5rem;
         display: flex;
@@ -517,6 +643,7 @@
       }
     .articles{
       grid-template-columns: 1fr;
+      /* height: 20vh; */
 
     }
     .article{

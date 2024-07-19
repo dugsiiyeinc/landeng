@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -16,9 +16,18 @@ body {
 
 header {
   padding: 1.6875rem 0;
-  
-  /* background-image: url("https://askbootstrap.com/preview/landeng/img/slider1.jpg") ; */
-  /* height: 150vh; */
+}
+
+.desktop-menue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: #fff;
+   padding: 1rem 5rem;
+  top: 0;
+  width: 100%;
+
 }
 
 .desktop-menue {
@@ -31,6 +40,7 @@ header {
   top: 0;
   width: 100%;
   /* background-color: #f1afb0; */
+
 
  
 }
@@ -121,45 +131,26 @@ header {
     position: relative;
     border-radius: 8px;
     top: 53px;
-   
     right: 190px;
     padding: 10px;
 
 }
 .icon i{
-    
     font-size: 20px;
     color: #2962ec;
     cursor: pointer;
    
     
 }
- .resource input{
-    
-    width: 350px;
-    border: none;
-    outline: none;
-    background-color: #f8f9fa;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-    
-    font-size: 1.2rem;
-    padding: 10px;
-    margin-top: 10px;
-
-
- }
+ 
  .container{
    
     Width:1120px;
     Margin:auto;
  }
  .cards{
-
     display: flex;
-    gap: 20px;
+    gap: 40px;
  }
  
   .card-one{
@@ -248,7 +239,7 @@ header {
     margin: 30px;
 }
 .see-more i {
-    padding: 2px;
+    padding: 1rem;
     font-size: 12px;
 }
 .demo{
@@ -258,6 +249,7 @@ header {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
     
     
     
@@ -360,10 +352,6 @@ a{
 .arrow {
     position: absolute;
     top: 60%;
-   
-    /* background-color: #ffffff; */
-    
-   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -449,8 +437,8 @@ a{
 .landengover{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-    margin-top: 60px;
+    gap: 2rem;
+    margin-top: 60px
 }
 .landengover-items{
     /* display: flex; */
@@ -488,6 +476,7 @@ a{
 .more{
     text-align: center;
     margin: 20px;
+    margin-top: 1rem;
     
 }
 .more a button{
