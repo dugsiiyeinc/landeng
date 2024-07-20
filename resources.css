@@ -139,8 +139,8 @@
       border: 1px solid #d1d5db;
       border-radius: 8px;
       padding: 10px;
-      max-width: 400px;
-      width: 100%;
+      max-width: 50%;
+      /* width: 100%; */
   }
   
   .search-box i {
@@ -151,7 +151,7 @@
   .search-box input {
       border: none;
       outline: none;
-      width: 100%;
+      max-width: 100%;
       font-size: 1rem;
       color: #4a5568;
   }
@@ -163,12 +163,15 @@
       margin-top: 0.5rem;
     }
     .resources{
-      display: grid;
-      grid-template-columns: repeat(3,1fr);
+      /* display: grid;
+      grid-template-columns: repeat(3,1fr); */
+      /* max-width: 100%; */
+      display: flex;
+      max-width: 100%;
     }
      .resource{
-      width: 20rem;
-      height: 12rem;
+       max-width:100%; 
+      /* height: 12rem;  */
       padding: 1rem;
       border:  2px solid hsla(0, 3%, 71%, 0.815);
       margin: 1rem;
@@ -493,16 +496,24 @@
         line-height: 4rem;
     }
   .search-box input {
-      width: 50%;
+      /* width: 50%; */
       font-size: 1rem;
       text-align: center;
   } 
+
+  .rec-con .search-box {
+    max-width: 90%;
+
+} 
     
     .resources {
-      grid-template-columns: 1fr;
+      /* grid-template-columns: 1fr; */
+      flex-direction: column;
+     
   }
     .resource{
       margin-left: 1.5rem;
+      /* max-width: 50%; */
       
     }
     .popular-articles .container h2{
