@@ -17,6 +17,7 @@ header {
   padding: 1.6875rem 0;
   background-image: url("https://askbootstrap.com/preview/landeng/img/slider1.jpg") ;
   height: 150vh;
+  z-index: 10;
 }
 
 .desktop-menue {
