@@ -569,7 +569,6 @@ footer{
       display: none;
     }
   
-  
     .mobile-header {
       display: flex;
       justify-content: space-between;
@@ -578,11 +577,11 @@ footer{
       position: fixed;
       top:0 ;
       width: 100%;
-      z-index: 10;
+      z-index: 1111;
   
-      /* background-color: #fff; */
+  
+      background-color: #fff;
     }
-  
      .hamburger i {
       background-color: #2761ec;
       padding: 5px 10px ;
@@ -600,13 +599,15 @@ footer{
       flex-direction: column;
       /* background-color: #fff; */
       transform: translateY(-100%);
+      /* transform: translateY(0%); */
       transition: transform 350ms ease-in-out;
-      position: absolute;
+      position: fixed;
       top: 70px;
       width: 100%;
       z-index: 5;
       background-color: #fff;
     }
+  
   
     .mobile-menue[data-visible="true"] {
       transform: translateY(0%);
