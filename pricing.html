@@ -18,7 +18,7 @@
         <!-- Logo-Left side -->
 
         <div class="logo">
-          <a href="#Home" ><img class="logo" src="https://askbootstrap.com/preview/landeng/img/logo.svg" alt=""></a>
+          <a href="index.html" ><img class="logo" src="image/logo.png" alt=""></a>
         </div>
         <!-- humburger-right side -->
         <div class="hamburger">
@@ -38,7 +38,7 @@
             <a href="index.html"
               ><img
                 class="logo"
-                src="https://askbootstrap.com/preview/landeng/img/logo.svg"
+                src="image/logo.png"
                 alt=""
             /></a>
           </div>
@@ -228,7 +228,7 @@
 
           <div class="social-media">
             <div class="logo">
-              <a href="#Home" ><img class="logo" src="https://askbootstrap.com/preview/landeng/img/logo.svg" alt=""></a>
+              <a href="#Home" ><img class="logo" src="image/logo.png" alt=""></a>
             </div>
 
             <div class="social-icons">
@@ -301,17 +301,5 @@
     </section>
     </section>
 
-    <script>
-      const hamburger = document.querySelector(".hamburger");
-      const mobileMenu = document.querySelector(".mobile-menue");
-      const icons = document.querySelectorAll(".hamburger i");
-
-      hamburger.addEventListener("click", function () {
-        const isVisible = mobileMenu.getAttribute("data-visible") === "true";
-        mobileMenu.setAttribute("data-visible", !isVisible);
-        icons[0].setAttribute("data-visible", !isVisible);
-        icons[1].setAttribute("data-visible", isVisible);
-      });
-    </script>
   </body>
 </html>

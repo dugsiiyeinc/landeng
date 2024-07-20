@@ -18,7 +18,7 @@
       <!-- Logo-Left side -->
 
       <div class="logo">
-        <a href="#Home" ><img class="logo" src="https://askbootstrap.com/preview/landeng/img/logo.svg" alt=""></a>
+        <a href="index.html" ><img class="logo" src="image/logo.png" alt=""></a>
       </div>
       <!-- humburger-right side -->
       <div class="hamburger">
@@ -38,7 +38,7 @@
           <a href="index.html"
             ><img
               class="logo"
-              src="https://askbootstrap.com/preview/landeng/img/logo.svg"
+              src="image/logo.png"
               alt=""
           /></a>
         </div>
@@ -87,16 +87,17 @@
   </header>
 
   <script>
-    const hamburger = document.querySelector(".hamburger");
-    const mobileMenu = document.querySelector(".mobile-menue");
-    const icons = document.querySelectorAll(".hamburger i");
+      const hamburger = document.querySelector(".hamburger");
+      const mobileMenu = document.querySelector(".mobile-menue");
+      const icons = document.querySelectorAll(".hamburger i");
 
-    hamburger.addEventListener("click", function () {
-      const isVisible = mobileMenu.getAttribute("data-visible") === "true";
-      mobileMenu.setAttribute("data-visible", !isVisible);
-      icons[0].setAttribute("data-visible", !isVisible);
-      icons[1].setAttribute("data-visible", isVisible);
-    });
+      hamburger.addEventListener("click", function () {
+        const isVisible = mobileMenu.getAttribute("data-visible") === "true";
+        mobileMenu.setAttribute("data-visible", !isVisible);
+        icons[0].setAttribute("data-visible", !isVisible);
+        icons[1].setAttribute("data-visible", isVisible);
+      });
+    
   </script>
 
 
@@ -112,7 +113,7 @@
 
         </div>
         </section>
-    </section class="our-resource">
+    <section class="our-resource">
        <div class="container">
            <div class="resources">
             <div class="resource">
@@ -143,8 +144,8 @@
             </div>
            </div>
        </div>
-     </section>
-
+     </section> 
+ 
      <section class="popular-articles">
          <div class="container">
           <h2>Most insightful articles <br> for start off</h2>
@@ -193,9 +194,9 @@
            <span class="more-articles"> see more articles></span>
          </div>
 
-     </section>
+     </section> 
      
-     <section class="start-now">
+      <section class="start-now">
      <div class="start-bussines">
      <div class="text-start">
       <h2>Your next successful <br> business starts now</h2>
@@ -206,14 +207,14 @@
         <button class="btn view">View live demo</button>
       </div>
      </div>
-     </section>
-     <footer >
+     </section> 
+      <footer >
       <div class="container"> 
         <div class="concludes">
 
           <div class="social-media">
             <div class="logo">
-              <a href="#Home" ><img class="logo" src="https://askbootstrap.com/preview/landeng/img/logo.svg" alt=""></a>
+              <a href="#Home" ><img class="logo" src="image/logo.png" alt=""></a>
             </div>
 
             <div class="social-icons">
@@ -284,24 +285,11 @@
       <p>© 2020 Landeng. All Right Reseved.</p>
       <p>Made with ♥️ by <span>Group E</span> </p>
     </section>
-    </section>
+     
 
 
 
 
 
-
-    <script>
-    const hamburger = document.querySelector(".hamburger");
-    const mobileMenu = document.querySelector(".mobile-menue");
-    const icons = document.querySelectorAll(".hamburger i");
-
-    hamburger.addEventListener("click", function () {
-      const isVisible = mobileMenu.getAttribute("data-visible") === "true";
-      mobileMenu.setAttribute("data-visible", !isVisible);
-      icons[0].setAttribute("data-visible", !isVisible);
-      icons[1].setAttribute("data-visible", isVisible);
-    });
-  </script>
 </body>
 </html>

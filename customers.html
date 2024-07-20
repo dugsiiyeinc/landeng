@@ -8,93 +8,95 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <div class="header-section">
-            <!--Mobile Header -->
-        <div class=".container mobile-header">
-          <!-- Logo-Left side -->
-  
-          <div class="logo">
-            <a href="#Home" ><img class="logo" src="https://askbootstrap.com/preview/landeng/img/logo.svg" alt=""></a>
-          </div>
-          <!-- humburger-right side -->
-          <div class="hamburger">
-            
-            <i class="fa-solid fa-bars" data-visible="true"></i>
-            <i class="fa-solid fa-close" data-visible="false"></i>
-            
-          </div>
-        </div>
-  
-        <!-- Desktop menue -->
-        <!-- <div class="container"> -->
-          <nav class="desktop-menue">
-            <!-- Logo-Left side -->
-  
-            <div class="logo">
-              <a href="index.html"
-                ><img
-                  class="logo"
-                  src="https://askbootstrap.com/preview/landeng/img/logo.svg"
-                  alt=""
-              /></a>
-            </div>
-  
-            <!-- Menus link -->
-  
-            <ul class="menues-link">
-              <li><a href="about.html"> About</a></li>
-              <li><a href="product.html">Product</a></li>
-              <li><a href="pricing.html">Pricing </a></li>
-              <li><a href="resources.html">Resources</a></li>
-              <li><a href="customers.html">Customers</a></li>
-            </ul>
-            <!-- Menus link right-side -->
-  
-            <ul class="menues-link-butten">
-              <li><a href="Login.html">Login</a></li>
-              <li class="start">
-                <a href="start.html">Start free trail</a>
-              </li>
-            </ul>
-  
-          </nav>
-        <!-- </div> -->
-        <!-- Mobile menue -->
-        <nav class="mobile-menue" data-visible="true">
-  
-          <div class="navigation">
-            <!-- Menus link -->
-            <ul class="menues-link">
-              <li><a href="about.html"> About</a></li>
-              <li><a href="pricing.html">Product</a></li>
-              <li><a href="pricing.html">Pricing </a></li>
-              <li><a href="resources.html">Resources</a></li>
-              <li><a href="customers.html">Customers</a></li>
-              <li><a href="Login.html">Login</a></li>
-              <li class="start">
-                <a href="start.html">Start free trail</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-  
-      
-        </div> 
-      </header>
+  <header>
+    <div class="header-section">
+        <!--Mobile Header -->
+    <div class=".container mobile-header">
+      <!-- Logo-Left side -->
 
-      <script>
-        const hamburger = document.querySelector(".hamburger");
-        const mobileMenu = document.querySelector(".mobile-menue");
-        const icons = document.querySelectorAll(".hamburger i");
+      <div class="logo">
+        <a href="index.html" ><img class="logo" src="image/logo.png" alt=""></a>
+      </div>
+      <!-- humburger-right side -->
+      <div class="hamburger">
+        
+        <i class="fa-solid fa-bars" data-visible="true"></i>
+        <i class="fa-solid fa-close" data-visible="false"></i>
+        
+      </div>
+    </div>
+
+    <!-- Desktop menue -->
+    <!-- <div class="container"> -->
+      <nav class="desktop-menue">
+        <!-- Logo-Left side -->
+
+        <div class="logo">
+          <a href="index.html"
+            ><img
+              class="logo"
+              src="image/logo.png"
+              alt=""
+          /></a>
+        </div>
+
+        <!-- Menus link -->
+
+        <ul class="menues-link">
+          <li><a href="about.html"> About</a></li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="pricing.html">Pricing </a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="customers.html">Customers</a></li>
+        </ul>
+        <!-- Menus link right-side -->
+
+        <ul class="menues-link-butten">
+          <li><a href="Login.html">Login</a></li>
+          <li class="start">
+            <a href="start.html">Start free trail</a>
+          </li>
+        </ul>
+
+      </nav>
+    <!-- </div> -->
+    <!-- Mobile menue -->
+    <nav class="mobile-menue" data-visible="true">
+
+      <div class="navigation">
+        <!-- Menus link -->
+        <ul class="menues-link">
+          <li><a href="about.html"> About</a></li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="pricing.html">Pricing </a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="customers.html">Customers</a></li>
+          <li><a href="Login.html">Login</a></li>
+          <li class="start">
+            <a href="start.html">Start free trail</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
   
-        hamburger.addEventListener("click", function () {
-          const isVisible = mobileMenu.getAttribute("data-visible") === "true";
-          mobileMenu.setAttribute("data-visible", !isVisible);
-          icons[0].setAttribute("data-visible", !isVisible);
-          icons[1].setAttribute("data-visible", isVisible);
-        });
-      </script>
+    </div> 
+  </header>
+
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const mobileMenu = document.querySelector(".mobile-menue");
+    const icons = document.querySelectorAll(".hamburger i");
+
+    hamburger.addEventListener("click", function () {
+      const isVisible = mobileMenu.getAttribute("data-visible") === "true";
+      mobileMenu.setAttribute("data-visible", !isVisible);
+      icons[0].setAttribute("data-visible", !isVisible);
+      icons[1].setAttribute("data-visible", isVisible);
+    });
+  </script>
+
+      
       <section class="customer-hero">
         <h2 class="title">Hear what 95,000 brands and <br />businesses ♥️ about using  <br /> Landeng
         </h2>
@@ -328,7 +330,7 @@
   
             <div class="social-media">
               <div class="logo">
-                <a href="#Home" ><img class="logo" src="https://askbootstrap.com/preview/landeng/img/logo.svg" alt=""></a>
+                <a href="#Home" ><img class="logo" src="image/logo.png" alt=""></a>
               </div>
   
               <div class="social-icons">
@@ -402,7 +404,7 @@
           </section>
       
           </section>
-          <script>
+          <!-- <script>
             const hamburger = document.querySelector(".hamburger");
             const mobileMenu = document.querySelector(".mobile-menue");
             const icons = document.querySelectorAll(".hamburger i");
@@ -413,7 +415,7 @@
               icons[0].setAttribute("data-visible", !isVisible);
               icons[1].setAttribute("data-visible", isVisible);
             });
-          </script>
+          </script> -->
     
 </body>
 </html>
