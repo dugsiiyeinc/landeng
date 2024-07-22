@@ -8,11 +8,11 @@ The Data-Analyze-Website is a powerful data analytics platform designed to help 
 ## Website pages
 has multiples page like:
 - **home page**
--**about page**
--**product page**
--**pricing page**
--**resources page**
--**customer page**
+- **about page**
+- **product page**
+- **pricing page**
+- **resources page**
+- **customer page**
 
 ## About Us
 At Landeng, we believe that data is the new currency of the modern business world. Founded with a vision to empower organizations with the tools they need to harness the power of data, we are dedicated to providing cutting-edge analytics solutions that transform raw data into actionable insights.
@@ -35,28 +35,7 @@ Our primary objective was to create a fully responsive  to adapted all screen in
 - **HTML**: use to buid structure of website
 - **CSS**: use  styling of website or appreance like color ,layouts,
 - **a few javascript**: use to manages  menue of website
-## Team members parcipate this website
-- Abdirahman Hassan
-- Nasteha Abdikarim
-
-
-## Meet Our Executives
-A few of the amazing executives leading Landeng:
-- **Gurdeep Osahan** - Founder and CEO (Twitter, Facebook, LinkedIn)
-
-## Installation
-### prequirment
-1. - **visual studio**: is Editor enables to write codes
-2. - **git bush**: use write github commends
-3.  - **browser**:to display your website neded use any browser like google, microsoft Edge, firefox
-
-4. **Clone the repository:**
-   \`\`\`bash
-   git clone https://github.com/yourusername/data-analyze-website.git
-   \`\`\`
-
-## Usage
-Once the server is running, you can access the platform by navigating to \`https://data-analyze-website.vercel.app/index.html` in your web browser. Follow the on-screen instructions to start analyzing your data, creating reports, and collaborating with your team.
+m.
 ## Team members parcipate this website
 - Abdirahman Hassan
 - Nasteha Abdikarim
