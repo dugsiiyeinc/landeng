@@ -7,11 +7,11 @@ The Data-Analyze-Website is a powerful data analytics platform designed to help 
 ## Website pages
 has multiples page like:
 - **home page**
--**about page**
--**product page**
--**pricing page**
--**resources page**
--**customer page**
+- **about page**
+- **product page**
+- **pricing page**
+- **resources page**
+- **customer page**
 
 ## About Us
 At Landeng, we believe that data is the new currency of the modern business world. Founded with a vision to empower organizations with the tools they need to harness the power of data, we are dedicated to providing cutting-edge analytics solutions that transform raw data into actionable insights.
