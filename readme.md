@@ -20,7 +20,7 @@ Our mission is to democratize data analytics by offering a platform that is acce
 
 Landeng is a team of passionate data enthusiasts, engineers, and business experts who are committed to helping you unlock the full potential of your data. With years of experience in the industry, we understand the challenges businesses face when dealing with vast amounts of data. That's why we've created a platform that simplifies the process, making it easier for you to visualize, analyze, and share your data.
 
-## Features
+## More Features
 - **Analyze Your Data**: Create reports with an easy-to-use drag-and-drop designer.
 - **Embedded Analytics**: Integrate analytics seamlessly into your existing applications.
 - **Collaborate Securely**: Share and publish your reports with colleagues while ensuring data security.
