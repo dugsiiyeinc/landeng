@@ -114,6 +114,7 @@ header {
   display: none;
 }
   .customer-hero{
+    margin-top: 4rem;
     height: 80vh;
     display: flex;
     flex-direction: column;
