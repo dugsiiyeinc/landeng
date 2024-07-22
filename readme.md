@@ -60,4 +60,4 @@ Once the server is running, you can access the platform by navigating to \`https
 - Abdirahman Hassan
 - Nasteha Abdikarim
   ### than you
-  Our dear teacher Eng Hamoud and all my supporters
+  Our dear teacher Eng Hamouda and all my supporters
